@@ -1,0 +1,16 @@
+{
+  "options": {
+    "[PC Replays] Camera is trapped into the floor": "cam2version",
+    "[PC Replays] Screen is black": "cam2version_1",
+    "[PC Replays] Camera is too shaky": "smoothness",
+    "[PC Replays] Notes are not processing in the replay or doing it wrong": "comp",
+    "[PC Replays] Nothing happening when enter replay": "comp_1",
+    "Another reason": "noans"
+  },
+  "responses": {
+	"comp": "Well, it's the **compatibility** problem. Make sure that you have installed mods versions that was included in archive (if you use it).",
+	"cam2version": "First make sure that you have updated your Camera2 to at least version  0.6.96. If this didn't fix the problem enable \"Follow replay position\" in Camera2 config. If the issue continues go to `BeatSaber\\UserData` and delete `Camera2` folder. https://github.com/kinsi55/CS_BeatSaber_Camera2/releases/",
+	"smoothness": "If you use Camera2 go to `Camera2->Smoothing` and set smoothness as you want. **(Remember that lower value increases smoothing!)**. If you don't use Camera2, in replay, open settings and go to `Camera->Pose params` and set the desired smoothness.",
+    "noans": "**There is no specific answer for your question.**"
+  }
+}

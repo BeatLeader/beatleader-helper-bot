@@ -1,0 +1,25 @@
+{
+  "MessagesContent": {
+    "LogMessageContent": "When you reporting an issue or asking for help, do not forget to provide the log. You can find the logs at `BeatSaber\\Logs\\[date].log`",
+    "WhoCanAskMessageContent": "Did it helped? If not, ping one of the `BeatCreators` or report an issue.",
+    "HelpOfferMessageContent": "Hey, looking for help?",
+    "HelpMessageContent": "Here is a list of available problems:"
+  },
+  "HelpConfig": {
+    "UseHelpKeywordListener": true,
+    "HelpKeywords": [
+	  "in-game replay",
+	  "camera inside floor",
+	  "i cannot",
+	  "not work",
+	  "broken",
+	  "modassistant",
+	  "mod assistant",
+	  "mods assistant",
+	  "blackscreen",
+	  "black screen",
+	  "shaky",
+      "issue with"
+    ]
+  }
+}
